@@ -58,3 +58,15 @@ export const UserNameText = styled.h3`
     display: none;
   }
 `;
+
+export const TabName = styled.h2`
+  color: #1565d8;
+  font-family: Oswald;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.03125rem; /* 109.091% */
+  letter-spacing: -0.0265rem;
+  text-transform: uppercase;
+  margin: 0;
+`;

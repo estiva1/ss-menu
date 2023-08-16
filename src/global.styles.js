@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 body {
     margin: 0;
-    font-family: 'Titillium Web', sans-serif !important;
+    font-family: 'Titillium Web', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

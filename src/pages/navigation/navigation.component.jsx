@@ -1,6 +1,6 @@
 import { AnimatePresence } from "framer-motion";
 import React, { Fragment, useEffect, useState } from "react";
-import { NavigationContainer, NavigationDropdown, UserNameText } from "./navigation.styles";
+import { NavigationContainer, NavigationDropdown, TabName, UserNameText } from "./navigation.styles";
 
 import { navLinksContent } from "../../constants";
 import MenuItem from "../../components/menu-item/menu-item.component";
@@ -39,6 +39,8 @@ const Navigation = () => {
         <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "16px" }}>
           {isMobile ? <></> : <HamburgerIcon change={handleClick} onClick={handleClick} />}
           <img src={logo} alt="Company Logo" style={{ height: "20px" }} />
+          <TabName>|</TabName>
+          <TabName>Menu</TabName>
         </div>
 
         <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "16px" }}>
